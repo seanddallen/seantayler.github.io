@@ -85,14 +85,14 @@
           <div class="col-sm-4">
             <div class="team-member">
               <h4>Professional Bio</h4>
-              <p class="text-muted">I have a bachelors and two masters degrees in my previous field. However, I knew it was time for a career change. For the past six months I have been studying and practicing full-time to become a web developer. This includes taking courses, reading books/articles/blogs, practicing algorithms, and programming things from smaller projects to websites. I eat, sleep, and dream web development. Once I am hired that will not change; I am a life-long learner by nature.</p>
+              <p class="text-muted">I have a bachelors and two masters degrees in my previous field. However, I knew it was time for a career change. For the past year I have been studying and programming full-time to become a web developer. This includes taking courses, reading books/articles/blogs, practicing algorithms, and programming small projects, websites, and full stack web applications. I love programming and problem-solving. I eat, sleep, and dream web development. I am a life-long learner by nature.</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/SeanThumb.jpg" alt="">
               <h4>Sean Tayler</h4>
-              <p class="text-muted">Front-End Web Developer</p>
+              <p class="text-muted">Full Stack Web Developer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://twitter.com/devseantayler">
@@ -344,13 +344,46 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Check out my work! (Newest to Oldest)</h3>
+            <h3 class="section-subheading text-muted">Check out some of my work! (Newest to Oldest)</h3>
           </div>
         </div>
         <div class="row">
 
+          <!-- Draftstone -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" data-toggle="modal" href="#draftstoneModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/draftstone-thumb.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Draftstone</h4>
+              <p class="text-muted">Heartstone Custom Draft Application</p>
+            </div>
+          </div>
+
+          <!-- Pick N' Roll -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#picknrollModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/picknroll-thumb.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Pick N' Roll</h4>
+              <p class="text-muted">Basketball Court and Game Finder</p>
+            </div>
+          </div>
+
+          <!-- Teddys Pizzeria -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#teddysModal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -364,8 +397,9 @@
             </div>
           </div>
 
+          <!-- DevClimb -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#devclimbModal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -379,8 +413,9 @@
             </div>
           </div>
 
+          <!-- Landing Page -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#landingpageModal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -394,8 +429,9 @@
             </div>
           </div>
 
+          <!-- Github Projects -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" href="https://github.com/seantayler" target="_blank">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -558,8 +594,9 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Teddys Pizzaria Modal -->
+
+    <div class="portfolio-modal modal fade" id="teddysModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -604,9 +641,9 @@
       </div>
     </div>
 
-    <!-- Modal 2 -->
+    <!-- Landing Page Modal -->
 
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="landingpageModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -651,9 +688,9 @@
       </div>
     </div>
 
-    <!-- Modal 3 -->
+    <!-- DevClimb Modal -->
 
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="devclimbModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -698,52 +735,9 @@
       </div>
     </div>
 
-    <!-- Modal 4 -->
-<!--
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                   Project Details Go Here
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline social-buttons">
-                    <li class="list-inline-item">
-                      <a href="#">
-                        <i class="fa fa-external-link"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="#">
-                        <i class="fa fa-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
--->
+    <!-- PickNRoll Modal -->
 
-    <!-- Modal 5 -->
-<!--
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="picknrollModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -755,19 +749,24 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                   Project Details Go Here
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-thumbnail.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Pick N' Roll</h2>
+                  <p class="item-intro text-muted">Basketball Court and Game Finder</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/picknroll-full.png" alt="">
+                  <h4><b>Project Overview</b></h4>
+                  <p>This is my second website from scratch and my first website designed for a local business; in this case a pizzeria resaurant. My goal was to show I could make a simple yet visually appealing site that an actual business could use and be proud of. I believe I accomplished that goal.</p>
+                  <h4><b>What I Learned</b></h4>
+                  <p>I learned so much in this project. I learned how to be much more efficient typing my code in Atom (especially using the Emmit plugin). I learned to write much cleaner Bootstrap code and incorporate Flexbox into Bootstrap. I learned more about using CSS animations, parallax, and transform effects. I also used the JavaScript library jQuery for the first time to make the lightbox, toggle button, and scroll effects.</p>
+                  <h4><b>Technologies Used</b></h4>
+                  <div>Atom Text-Editor</div>
+                  <div>HTML/CSS</div>
+                  <div>Bootstrap/Flexbox</div>
+                  <div>JavaScript/jQuery</div>
+                  <div>Git/Github</div>
+                  <br>
                   <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
-                      <a href="#">
-                        <i class="fa fa-external-link"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="#">
+                      <a href="https://github.com/seantayler/picknroll">
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
@@ -782,7 +781,54 @@
         </div>
       </div>
     </div>
--->
+
+
+    <!-- Draftstone Modal -->
+
+    <div class="portfolio-modal modal fade" id="draftstoneModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Draftstone</h2>
+                  <p class="item-intro text-muted">Cuustom Hearthstone Draft Application</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/draftstone-full.png" alt="">
+                  <h4><b>Project Overview</b></h4>
+                  <p>This is my second website from scratch and my first website designed for a local business; in this case a pizzeria resaurant. My goal was to show I could make a simple yet visually appealing site that an actual business could use and be proud of. I believe I accomplished that goal.</p>
+                  <h4><b>What I Learned</b></h4>
+                  <p>I learned so much in this project. I learned how to be much more efficient typing my code in Atom (especially using the Emmit plugin). I learned to write much cleaner Bootstrap code and incorporate Flexbox into Bootstrap. I learned more about using CSS animations, parallax, and transform effects. I also used the JavaScript library jQuery for the first time to make the lightbox, toggle button, and scroll effects.</p>
+                  <h4><b>Technologies Used</b></h4>
+                  <div>Atom Text-Editor</div>
+                  <div>HTML/CSS</div>
+                  <div>Bootstrap/Flexbox</div>
+                  <div>JavaScript/jQuery</div>
+                  <div>Git/Github</div>
+                  <br>
+                  <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                      <a href="http://www.draft-stone.com">
+                        <i class="fa fa-external-link"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Modal 6 -->
 <!--
