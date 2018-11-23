@@ -517,3 +517,53 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #fed136;
 }
+
+.social-widget{
+
+}
+
+.social-button{
+  width: 300px !important;
+  padding: 10px;
+  letter-spacing: 1px;
+  margin:10px;
+}
+
+.social-text{
+  width: 150px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+}
+
+.right-text{
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.fa{
+  width: 30px;
+  text-align: center;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* #social:hover {
+  background-color: #fed136 !important;
+  color: rgba(0,0,0,0.9);
+  transition: 0.5s;
+} */
